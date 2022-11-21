@@ -1,0 +1,25 @@
+.cointainer-fluid{
+    align-items: centerx;
+}
+.row > #col2,#col5,#col8{
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+.row > #col1,#col2,#col3{
+    border-bottom: 1px solid white;
+}
+.row >#col4,#col5,#col6{
+    border-bottom: 1px solid white; 
+}
+
+.row{
+    height: 50px;     
+}
+
+#tasto{
+    position: relative;
+}
+#reset{
+    position: absolute;
+    transform: (-50%,-50%);
+}
